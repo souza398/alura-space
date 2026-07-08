@@ -406,3 +406,35 @@ table {
     --bs-alert-bg: #cfe2ff;
     --bs-alert-border-color: #b6d4fe;
 }
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -3.5rem;
+    gap: 5rem;
+}
+
+.social-media-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-media-icon {
+    height: 3rem;
+    width: 3rem;
+    margin-top: 4rem;
+}
+
+.social-media-details a p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+}
